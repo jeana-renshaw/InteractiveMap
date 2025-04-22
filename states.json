@@ -1,0 +1,5 @@
+[
+  {"state": "Pennsylvania", "coordinates": [[39.7198, -80.5199], [41.9926, -74.6895]], "status": "In Progress", "color": "#FFD700"},
+  {"state": "New Jersey", "coordinates": [[38.9285, -75.5566], [41.3579, -73.9793]], "status": "Complete", "color": "#28a745"},
+  {"state": "New York", "coordinates": [[40.4774, -79.7628], [45.0153, -71.8562]], "status": "Not in Expansion", "color": "#808080"} 
+]
