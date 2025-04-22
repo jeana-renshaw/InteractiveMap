@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Fetch the state data
-fetch('https://nstny-my.sharepoint.com/personal/jrenshaw_sourcepass_com/_layouts/15/download.aspx?UniqueId=a32c7c1327034d0a871eb2c1d7a1ab03&e=oX6aps')
+fetch('https://github.com/jeana-renshaw/InteractiveMap/blob/main/states.json')
   .then(response => response.json())
   .then(data => {
     data.forEach(state => {
