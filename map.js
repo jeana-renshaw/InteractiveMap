@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Fetch the state data
-fetch('https://github.com/jeana-renshaw/InteractiveMap/blob/main/states.json')
+fetch('https://jeana-renshaw.github.io/InteractiveMap/states.json')
   .then(response => response.json())
   .then(data => {
     data.forEach(state => {
